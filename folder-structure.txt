@@ -1,0 +1,15 @@
+Folder Structure
+
+Productivity Tracker
+ |_Public
+  |_index.html
+ |_src
+  |_App.js
+  |_Components
+  |_body.js
+  |_graph.js
+  |_player.js
+  |_playerStatus.js
+  |_statTracker
+  |_title.js
+  |_wrapper.js

@@ -3,7 +3,7 @@ import "./css/playerStatus.css";
 import Player from "./player";
 
 
-const PlayerStatus = () => {
+const PlayerStatus = (props) => {
   return (
     <Player>
     </Player>
