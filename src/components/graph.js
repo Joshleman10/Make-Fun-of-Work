@@ -94,14 +94,10 @@ let incentiveTotal = 0;
 //   timerCounter++;
 // }, 1000)
 
-//=====================================================
+//===============================
 
 
 class Graph extends Component {
-
-  componentDidMount(){
-    document.addEventListener("keydown", onkeydown);
-  }
 
 render() {
   return (
