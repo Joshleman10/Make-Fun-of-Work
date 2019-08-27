@@ -4,7 +4,7 @@ import Body from "./components/body";
 class App extends Component {
   handleKeydown(e) {
     if(e.keyCode === 13){
-      console.log("the");
+      console.log(e);
     }
   }
 
@@ -26,4 +26,3 @@ export default App;
 
 //set up the scoring system...("space bar counts as 1 
 //task completed")
-

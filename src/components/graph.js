@@ -1,13 +1,11 @@
 import React, { Component } from 'react';
 // import PlayerStatus from './playerStatus';
-// import Player from './player';
 import StatCard from './statTracker';
-
 
 const LineChart = require("react-chartjs").Line;
 
 let chartData = {
-  labels: ["January", "February", "March", "April", "May", "June", "July"],
+  labels: ["6AM", "7AM", "8AM", "9AM", "10AM", "11AM", "12PM", "1PM", "2PM", "3PM"],
   datasets: [
     {
       label: "My First dataset",
@@ -18,16 +16,6 @@ let chartData = {
       pointHighlightFill: "#fff",
       pointHighlightStroke: "rgba(220,220,220,1)",
       data: [65, 59, 80, 81, 56, 55, 40]
-    },
-    {
-      label: "My Second dataset",
-      fillColor: "rgba(151,187,205,0.2)",
-      strokeColor: "rgba(151,187,205,1)",
-      pointColor: "rgba(151,187,205,1)",
-      pointStrokeColor: "#fff",
-      pointHighlightFill: "#fff",
-      pointHighlightStroke: "rgba(151,187,205,1)",
-      data: [28, 48, 40, 19, 86, 27, 90]
     }
   ]
 };

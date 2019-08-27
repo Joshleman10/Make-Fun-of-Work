@@ -1,5 +1,6 @@
 import React from "react";
 import "./css/statTracker.css";
+import API from "../routes/api";
 
 //Variables for StatCard Component
 let totalTasks = 0;
